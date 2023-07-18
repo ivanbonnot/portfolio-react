@@ -13,31 +13,31 @@ const Portfolio = () => {
     const portfolio = [
         {
             id: 1,
-            project:  arrayDestruct 
+            project: arrayDestruct
         },
         {
             id: 2,
-            project:  installNode 
+            project: installNode
         },
         {
             id: 3,
-            project:  navBar 
+            project: navBar
         },
         {
             id: 4,
-            project:  reactParallax 
+            project: reactParallax
         },
         {
             id: 5,
-            project:  reactSmooth 
+            project: reactSmooth
         },
         {
             id: 6,
-            project:  reactWeather 
+            project: reactWeather
         },
         {
             id: 7,
-            project:  useState 
+            project: useState
         },
     ]
 
@@ -52,11 +52,11 @@ const Portfolio = () => {
 
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
                     {portfolio.map(({ id, project }) => (
-                        <div key={id} className='shadow-md shadow-gray-800 rounded-lg'>
+                        <div key={id} className='shadow-lg shadow-gray-600 rounded-lg'>
                             <img className='rounded-md duration-200 hover:scale-105' src={project} alt="" />
                             <div className='flex items-center justify-center'>
-                                <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</button>
-                                <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button>
+                                <button className='w-1/2  py-3 my-4 border-r-2 border-gray-500 duration-200 hover:scale-105'>Demo</button>
+                                <button className='w-1/2  py-3 my-4  border-l-2 border-gray-500 duration-200 hover:scale-105'>Code</button>
                             </div>
                         </div>
                     ))}
