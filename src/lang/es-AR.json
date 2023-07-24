@@ -1,0 +1,33 @@
+{
+    "about.title": "",
+    "about.p1": "",
+    "about.p2": "",
+
+    "contact.title": "",
+    "contact.subtitle": "",
+    "contact.inputName": "",
+    "contact.inputEmail": "",
+    "contact.inputMsg": "",
+    "contact.buttonSend": "",
+
+    "experience.title": "",
+    "experience.subtitle": "",
+
+    "home.title": "",
+    "home.p1": "",
+    "home.buttonPortfolio": "",
+
+    "navbar.linksHome": "",
+    "navbar.linksAbout": "",
+    "navbar.linksPortfolio": "",
+    "navbar.linksExperience": "",
+    "navbar.linksContact": "",
+    "navbar.h1": "",
+
+    "portfolio.title": "",
+    "portfolio.subtitle": "",
+    "portfolio.buttonDemo": "",
+    "portfolio.buttonCode": "",
+
+    "socialLinks.resume": ""
+}

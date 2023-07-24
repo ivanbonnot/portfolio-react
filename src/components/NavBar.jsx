@@ -1,30 +1,40 @@
-import React, { useState } from 'react'
+import React, { useState, useContext } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import { Link } from 'react-scroll'
+import { FormattedMessage } from 'react-intl';
+import { langContext } from './../context/langContext'
+import es from './../assets/lang/spain.png';
+import en from './../assets/lang/united-kingdom.png';
 
 const NavBar = () => {
     const [nav, setNav] = useState(false)
+    const language = useContext(langContext);
 
     const links = [
         {
             id: 1,
-            link: 'home'
+            link: 'navbar.linksHome',
+            default: 'home'
         },
         {
             id: 2,
-            link: 'about'
+            link: 'navbar.linksAbout',
+            default: 'about'
         },
         {
             id: 3,
-            link: 'portfolio'
+            link: 'navbar.linksPortfolio',
+            default: 'portfolio'
         },
         {
             id: 4,
-            link: 'experience'
+            link: 'navbar.linksExperience',
+            default: 'experience'
         },
         {
             id: 5,
-            link: 'contact'
+            link: 'navbar.linksContact',
+            default: 'contact'
         },
     ]
 
@@ -37,11 +47,18 @@ const NavBar = () => {
                 {links.map(({ id, link }) => (
                     <li key={id} className='px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200'>
                         <Link to={link} smooth duration={500}>
-                            {link}
+                            <FormattedMessage
+                                id={link}
+                            />
                         </Link>
                     </li>
                 ))}
             </ul>
+
+            <div className="">
+                <button onClick={() => language.selectLanguage('es-AR')}><img src={es} alt="" /></button>
+                <button onClick={() => language.selectLanguage('en-US')}><img src={en} alt="" /></button>
+            </div>
 
             <div onClick={() => setNav(!nav)} className='md:hidden cursor-pointer pr-4 z-10 text-gray-500'>
                 {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
