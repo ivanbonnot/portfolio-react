@@ -1,7 +1,7 @@
 {
     "about.title": "About",
-    "about.p1": "",
-    "about.p2": "",
+    "about.p1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quae, accusamus saepe voluptatum delectus adipisci dignissimos rem deserunt, reprehenderit facere porro similique nobis mollitia inventore ratione, cumque dolor non sequi impedit! Cupiditate, tenetur necessitatibus. Doloremque, iure laboriosam consequatur maxime est aliquid reiciendis quae ad? Vitae doloribus incidunt optio nisi non.",
+    "about.p2": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo labore incidunt ad hic molestiae, totam sapiente consequatur soluta mollitia, dolore culpa pariatur atque impedit, porro rerum ab accusamus doloribus perferendis vero cupiditate! Fugiat necessitatibus voluptate sunt quo, voluptatibus tenetur soluta aliquid explicabo blanditiis error mollitia eligendi recusandae corrupti porro? Nulla.",
 
     "contact.title": "",
     "contact.subtitle": "",
@@ -22,7 +22,8 @@
     "navbar.linksPortfolio": "portfolio",
     "navbar.linksExperience": "experience",
     "navbar.linksContact": "contact",
-    "navbar.h1": "Iván Bonnot Developer",
+    "navbar.h1": "Iván Bonnot Development",
+    "navbar.lang": "Language",
 
     "portfolio.title": "",
     "portfolio.subtitle": "",

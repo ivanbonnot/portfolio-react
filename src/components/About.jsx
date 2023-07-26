@@ -14,13 +14,19 @@ const About = () => {
                     </p>
                 </div>
                 <p className='text-xl mt-20'>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quae, accusamus saepe voluptatum delectus adipisci dignissimos rem deserunt, reprehenderit facere porro similique nobis mollitia inventore ratione, cumque dolor non sequi impedit! Cupiditate, tenetur necessitatibus. Doloremque, iure laboriosam consequatur maxime est aliquid reiciendis quae ad? Vitae doloribus incidunt optio nisi non.
+                    <FormattedMessage
+                        id="about.p1"
+                        defaultMessage="About me paragraph one"
+                    />
                 </p>
 
                 <br />
 
                 <p className='text-xl'>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo labore incidunt ad hic molestiae, totam sapiente consequatur soluta mollitia, dolore culpa pariatur atque impedit, porro rerum ab accusamus doloribus perferendis vero cupiditate! Fugiat necessitatibus voluptate sunt quo, voluptatibus tenetur soluta aliquid explicabo blanditiis error mollitia eligendi recusandae corrupti porro? Nulla.
+                    <FormattedMessage
+                        id="about.p2"
+                        defaultMessage="About me paragraph two"
+                    />
                 </p>
 
             </div>
