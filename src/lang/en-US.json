@@ -1,21 +1,21 @@
 {
     "about.title": "About",
-    "about.p1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quae, accusamus saepe voluptatum delectus adipisci dignissimos rem deserunt, reprehenderit facere porro similique nobis mollitia inventore ratione, cumque dolor non sequi impedit! Cupiditate, tenetur necessitatibus. Doloremque, iure laboriosam consequatur maxime est aliquid reiciendis quae ad? Vitae doloribus incidunt optio nisi non.",
-    "about.p2": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo labore incidunt ad hic molestiae, totam sapiente consequatur soluta mollitia, dolore culpa pariatur atque impedit, porro rerum ab accusamus doloribus perferendis vero cupiditate! Fugiat necessitatibus voluptate sunt quo, voluptatibus tenetur soluta aliquid explicabo blanditiis error mollitia eligendi recusandae corrupti porro? Nulla.",
+    "about.p1": "I am passionate about learning and implementing new technologies. I always strive to be methodical and systematic when approaching projects in an organized and efficient manner. Moreover, when the situation demands it, I seek to think outside the box and find innovative solutions. As a dedicated and responsible individual, I am driven by a constant pursuit of self-improvement and continuous growth, paying attention to detail and quality.",
+    "about.p2": "I am self-taught and proactive, with strong interpersonal skills, enabling effective teamwork. I enjoy discussing ideas and finding solutions to problems, and I am always eager to take on new challenges with a great willingness to learn and grow from each experience. Currently, my goal is to immerse myself in web and mobile development, shaping my profile as a FrontEnd developer and working towards becoming a Full Stack developer",
 
-    "contact.title": "",
-    "contact.subtitle": "",
-    "contact.inputName": "",
-    "contact.inputEmail": "",
-    "contact.inputMsg": "",
-    "contact.buttonSend": "",
+    "contact.title": "Contact form",
+    "contact.subtitle": "Get in touch with me!",
+    "contact.inputName": "Name",
+    "contact.inputEmail": "Email",
+    "contact.inputMsg": "Message",
+    "contact.buttonSend": "Send!",
 
-    "experience.title": "",
-    "experience.subtitle": "",
+    "experience.title": "Experience",
+    "experience.subtitle": "Technologies i've been working with",
 
-    "home.title": "",
-    "home.p1": "",
-    "home.buttonPortfolio": "",
+    "home.title": "Hi!, I'm a full stack developer",
+    "home.p1": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora non, quas officiis porro consectetur obcaecati sint voluptatum quis laudantium illum maiores id autem corporis nulla magni? Laboriosam quod, praesentium dolore provident ex, vitae laudantium odit totam incidunt veniam fuga maxime fugiat placeat aut nemo nesciunt impedit voluptatum voluptas recusandae nulla mollitia.",
+    "home.buttonPortfolio": "Portfolio",
 
     "navbar.linksHome": "home",
     "navbar.linksAbout": "about",
@@ -25,10 +25,10 @@
     "navbar.h1": "Iván Bonnot Development",
     "navbar.lang": "Language",
 
-    "portfolio.title": "",
-    "portfolio.subtitle": "",
-    "portfolio.buttonDemo": "",
-    "portfolio.buttonCode": "",
+    "portfolio.title": "Portfolio",
+    "portfolio.subtitle": "This are the projects that i've been working on",
+    "portfolio.buttonDemo": "Demo",
+    "portfolio.buttonCode": "Code",
 
     "socialLinks.resume": ""
 }
