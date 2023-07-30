@@ -32,7 +32,12 @@ const Contact = () => {
             <input className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none' type="text" name="name" placeholder={inputName} id="" />
             <input className='my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none' type="text" name="email" placeholder={inputEmail} id="" />
             <textarea className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none' name="message" id="" cols="20" rows="6" placeholder={inputMsg}></textarea>
-            <button className='text-white font-semibold bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300'>Enviar</button>
+            <button className='text-white font-semibold bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300'>
+              <FormattedMessage
+                id="contact.buttonSend"
+                defaultMessage="Send!"
+              />
+            </button>
           </form>
         </div>
       </div>

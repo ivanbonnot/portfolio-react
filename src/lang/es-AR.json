@@ -3,19 +3,19 @@
     "about.p1": "Soy un apasionado por el aprendizaje y la implementación de nuevas tecnologías. Siempre me esfuerzo por ser metodico y sistemático para abordar los proyectos de manera organizada y eficiente. Además, cuando la situación lo requiere, busco pensar fuera del frasco y encontrar soluciones innovadoras.Como persona dedicada y responsable, me impulsa una constante búsqueda de superación y mejora continua, siempre atento al detalle y a la calidad.",
     "about.p2": "Soy autodidacta y proactivo, con habilidades sólidas en el manejo de relaciones interpersonales, facilitando un trabajo en equipo efectivo. Disfruto discutiendo ideas y encontrando soluciones a los problemas, y siempre estoy ansioso por enfrentar nuevos desafíos con una gran predisposición para aprender y crecer en cada experiencia. Actualmente, mi objetivo es insertarme en el desarrollo web y móvil, forjando mi perfil como FrontEnd y trabajando hacia una formación completa como Full Stack.",
 
-    "contact.title": "",
-    "contact.subtitle": "",
-    "contact.inputName": "",
-    "contact.inputEmail": "",
-    "contact.inputMsg": "",
-    "contact.buttonSend": "",
+    "contact.title": "Formulario de contacto",
+    "contact.subtitle": "Contáctame!",
+    "contact.inputName": "Nombre",
+    "contact.inputEmail": "Email",
+    "contact.inputMsg": "Tu mensaje",
+    "contact.buttonSend": "Enviar!",
 
-    "experience.title": "",
-    "experience.subtitle": "",
+    "experience.title": "Experiencia",
+    "experience.subtitle": "Tecnologias con las que estoy trabajando",
 
-    "home.title": "",
+    "home.title": "Hola!, soy un desarrollador FullStack",
     "home.p1": "",
-    "home.buttonPortfolio": "",
+    "home.buttonPortfolio": "Portafolio",
 
     "navbar.linksHome": "inicio",
     "navbar.linksAbout": "acerca de",
@@ -25,10 +25,10 @@
     "navbar.h1": "Iván Bonnot Desarrollos",
     "navbar.lang": "Lenguaje",
 
-    "portfolio.title": "",
-    "portfolio.subtitle": "",
-    "portfolio.buttonDemo": "",
-    "portfolio.buttonCode": "",
+    "portfolio.title": "Portafolio",
+    "portfolio.subtitle": "Estos son los proyectos en los que estuve trabajando",
+    "portfolio.buttonDemo": "Demostración",
+    "portfolio.buttonCode": "Código",
 
-    "socialLinks.resume": ""
+    "socialLinks.resume": "Curriculum"
 }
