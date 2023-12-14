@@ -1,22 +1,18 @@
 {
     "about.title": "Acerca de mí",
-    "about.p1": "Soy un apasionado por el aprendizaje y la implementación de nuevas tecnologías. Siempre me esfuerzo por ser metodico y sistemático para abordar los proyectos de manera organizada y eficiente. Además, cuando la situación lo requiere, busco pensar fuera del frasco y encontrar soluciones innovadoras.Como persona dedicada y responsable, me impulsa una constante búsqueda de superación y mejora continua, siempre atento al detalle y a la calidad.",
-    "about.p2": "Soy autodidacta y proactivo, con habilidades sólidas en el manejo de relaciones interpersonales, facilitando un trabajo en equipo efectivo. Disfruto discutiendo ideas y encontrando soluciones a los problemas, y siempre estoy ansioso por enfrentar nuevos desafíos con una gran predisposición para aprender y crecer en cada experiencia. Actualmente, mi objetivo es insertarme en el desarrollo web y móvil, forjando mi perfil como FrontEnd y trabajando hacia una formación completa como Full Stack.",
-
+    "about.p1": "Me encanta aprender y utilizar nuevas tecnologías. Siempre busco la forma más óptima para trabajar de manera organizada y eficiente. Además, cuando la situación lo requiere, trato de pensar fuera de lo común y encontrar soluciones alternativas al problema. Como profesional, soy comprometido y responsable, siempre en busca de una mejora constante, haciendo foco en los detalles y la calidad del trabajo. Soy autodidacta y proactivo, con buenas habilidades de comunicación, lo que facilita el trabajo en equipo.",
+    "about.p2": "Me encanta generar ideas y encontrar soluciones a problemas, y siempre estoy ansioso por enfrentar nuevos desafíos. Mi objetivo al día de hoy es incursionar en el desarrollo de aplicaciones web y móviles, construir mi perfil como FrontEnd y trabajar en mi formación completa como Full Stack.",
     "contact.title": "Formulario de contacto",
     "contact.subtitle": "Contáctame!",
     "contact.inputName": "Nombre",
     "contact.inputEmail": "Email",
     "contact.inputMsg": "Tu mensaje",
     "contact.buttonSend": "Enviar!",
-
     "experience.title": "Experiencia",
     "experience.subtitle": "Tecnologias con las que estoy trabajando",
-
     "home.title": "Hola!, soy un desarrollador FullStack",
     "home.p1": "",
     "home.buttonPortfolio": "Portafolio",
-
     "navbar.linksHome": "inicio",
     "navbar.linksAbout": "acerca de",
     "navbar.linksPortfolio": "portafolio",
@@ -24,11 +20,10 @@
     "navbar.linksContact": "contacto",
     "navbar.h1": "Iván Bonnot Desarrollos",
     "navbar.lang": "Lenguaje",
-
     "portfolio.title": "Portafolio",
     "portfolio.subtitle": "Estos son los proyectos en los que estuve trabajando",
     "portfolio.buttonDemo": "Demostración",
     "portfolio.buttonCode": "Código",
-
+    "portfolio.buttonRepo": "Repositorio",
     "socialLinks.resume": "Curriculum"
 }

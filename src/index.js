@@ -7,8 +7,6 @@ import { LangProvider } from './context/langContext';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <LangProvider>
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
+    <App />
   </LangProvider>
 );

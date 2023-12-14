@@ -19,7 +19,7 @@ const SocialLinks = () => {
       child: (
         <>  Github < FaGithub size={30} /> </>
       ),
-      href: 'https://github.com/ivanbonnot?tab=repositories'
+      href: 'https://github.com/ivanbonnot'
     },
     {
       id: 3,

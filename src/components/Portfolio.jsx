@@ -1,11 +1,5 @@
 import React from 'react'
-import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg'
-import installNode from '../assets/portfolio/installNode.jpg'
-import navBar from '../assets/portfolio/navbar.jpg'
-import reactParallax from '../assets/portfolio/reactParallax.jpg'
-import reactSmooth from '../assets/portfolio/reactSmooth.jpg'
-import reactWeather from '../assets/portfolio/reactWeather.jpg'
-import useState from '../assets/portfolio/usestate.jpg'
+import noteApp from '../assets/portfolio/arrayDestruct.jpg'
 import { FormattedMessage } from 'react-intl'
 
 const Portfolio = () => {
@@ -13,32 +7,9 @@ const Portfolio = () => {
     const portfolio = [
         {
             id: 1,
-            project: arrayDestruct
-        },
-        {
-            id: 2,
-            project: installNode
-        },
-        {
-            id: 3,
-            project: navBar
-        },
-        {
-            id: 4,
-            project: reactParallax
-        },
-        {
-            id: 5,
-            project: reactSmooth
-        },
-        {
-            id: 6,
-            project: reactWeather
-        },
-        {
-            id: 7,
-            project: useState
-        },
+            project: noteApp,
+            urlRepo: 'https://github.com/ivanbonnot/mantenimiento-PCC'
+        }
     ]
 
 
@@ -60,28 +31,38 @@ const Portfolio = () => {
                     </p>
                 </div>
 
-                <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
-                    {portfolio.map(({ id, project }) => (
+                <div className='grid sm:grid-cols-2 md:grid-cols-1 gap-8 px-12 sm:px-0'>
+                    {portfolio.map(({ id, project, urlRepo }) => (
                         <div key={id} className='shadow-lg shadow-gray-600 rounded-lg'>
+
+
                             <img className='rounded-md duration-200 hover:scale-105' src={project} alt="" />
+
                             <div className='flex items-center justify-center'>
-                                <button className='w-1/2  py-3 my-4 border-r-2 border-gray-500 duration-200 hover:scale-105'>
+                                <button className='w-1/3  py-3 my-4 border-r-2 border-gray-500 duration-200 hover:scale-105'>
                                     <FormattedMessage
                                         id="portfolio.buttonDemo"
                                         defaultMessage="Demo"
                                     />
                                 </button>
-                                <button className='w-1/2  py-3 my-4  border-l-2 border-gray-500 duration-200 hover:scale-105'> <FormattedMessage
-                                    id="portfolio.buttonCode"
-                                    defaultMessage="Code"
-                                />
+                                <button className='w-1/3  py-3 my-4  border-l-2 border-gray-500 duration-200 hover:scale-105'>
+                                    <FormattedMessage
+                                        id="portfolio.buttonCode"
+                                        defaultMessage="Code"
+                                    />
                                 </button>
+                                <a href={urlRepo} target="_blank" rel="noopener noreferrer"
+                                    className='w-1/3 py-3 my-4 border-l-2 text-center border-gray-500 duration-200 hover:scale-105'>
+                                    <FormattedMessage
+                                        id="portfolio.buttonRepo"
+                                        defaultMessage="Repository" />
+                                </a>
                             </div>
                         </div>
                     ))}
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 
